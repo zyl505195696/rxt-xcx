@@ -1,0 +1,30 @@
+<view class="page" style="background-color:#fff;height:100%">
+  <view class="page_hd">
+    <view class="msg">
+      <!-- <image style="width:150rpx;height:150rpx;" src="http://img3.imgtn.bdimg.com/it/u=3176166930,1094321685&fm=26&gp=0.jpg"></image> -->
+
+        <open-data type="userAvatarUrl"></open-data>
+      <open-data type="userNickName" ></open-data>
+    </view>
+  </view>
+
+  <view class="page_bd">
+    <view class="section" style="margin-bottom:30rpx">
+      <input type="text" placeholder="邮箱" bindinput="bindEmailInput"></input>
+    </view>
+    <view class="section">
+      <input type="password" placeholder="密码" bindinput="bindPasswordInput"></input>
+
+    </view>
+
+                  <view class="section">
+                  
+                    <button type="primary" bindtap="login">登录</button>
+                       <button type="default" style="background-color:#ccc">新用户登录</button>
+                          <button type="default">忘记密码</button>
+                  </view>
+    
+    </view>
+
+
+</view>

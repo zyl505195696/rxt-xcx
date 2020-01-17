@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/indexn/indexn",
+    "pages/shou/shou",
+    "pages/new/new",
+    "pages/details/details",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/indexn/indexn",
+      "text":"头条",
+      "iconPath": "images/home2.jpg",
+      "selectedIconPath": "images/home1.jpg"
+    },{
+      "pagePath": "pages/shou/shou",
+      "text": "收藏",
+      "iconPath": "images/shou2.jpg",
+      "selectedIconPath": "images/shou1.jpg"
+    },{
+      "pagePath": "pages/new/new",
+      "text": "个人中心",
+"iconPath": "images/p2.jpg",
+"selectedIconPath": "images/p1.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

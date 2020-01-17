@@ -1,0 +1,5 @@
+<!--pages/details/details.wxml-->
+<view>
+  <text style="margin-left:50px">{{id}}</text>
+  <rich-text nodes="{{myrich}}"></rich-text>
+</view>
