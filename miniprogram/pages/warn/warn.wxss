@@ -1,0 +1,19 @@
+/* pages/warn/warn.wxss */
+.title-num{
+  max-width: 75%;
+  margin-left: 0;
+}
+.warn-title{
+  font-weight: normal;
+  font-size:28rpx;
+  max-width:58%; 
+}
+
+
+.will {
+  background-color: #ff8700;
+}
+
+.will-icon {
+  background-color: #b05500;
+}

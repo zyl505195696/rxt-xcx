@@ -1,0 +1,21 @@
+<!--pages/login/login.wxml-->
+
+<view class="login">
+
+  <image src='/images/login-bj.jpg' class="logo-bj"></image>
+  <image src='/images/logo.png' class="logo"></image>
+ 
+
+ <!-- 输入框 -->
+  <i-panel i-class="{{aa}}">
+    <i-input i-class="input-msg" value="{{ value3 }}" type="textarea" placeholder="请输入用户名" maxlength="50" />
+    <i-input i-class="input-msg" value="{{ value3 }}" type="textarea" placeholder="请输入用密码" maxlength="50" />
+  </i-panel>
+
+
+  <i-button i-class="login-btn" bind:click="handleClick" type="primary">登录</i-button>
+　
+  <view class="forget">忘记密码？</view>
+
+   　 <navigator url='../register/register' class="bind" hover-class="navigator-hover">注册绑定</navigator>
+</view>

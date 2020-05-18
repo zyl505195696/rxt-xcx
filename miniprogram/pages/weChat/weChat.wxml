@@ -1,0 +1,6 @@
+<!--pages/weChat/wechat.wxml-->
+<image src="/images/WeChat_banner.jpg" class="img"></image>
+<view class="w-title">尊敬的用户:</view>
+<view class="w-text">融信通金融服务平台是北京融信通金服科技股份有限公司推出的公众服务平台，每月利息提醒、欠息提醒、放款、还款等诸多通知。</view>
+<view class="w-title w-bottom">如何关注融信通金服服务平台？</view>
+<view class="w-text"> 在微信“添加朋友”内点击“查找公众号”，搜索“融信通金融服务平台”，点击“关注”，您就可以体验“融信通金服服务平台”提醒服务了。</view>

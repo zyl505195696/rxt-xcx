@@ -1,0 +1,30 @@
+<!--pages/message/message.wxml-->
+
+<view class="page">
+<view class="msg-box" bindtap="handleOpen">
+   <view class="msg-time">2019-09-07  16:41:00</view>
+<view class="card">
+ <view class="msg-title">利息提醒</view>
+  <view class="msg-content">融科集团的客户【融科集团淮安子龙分公司】在本月扣划贷款利息时有6笔贷款共计60元利息未结清，为避免产生欠息，请及时通知客户存款。</view>
+</view>
+</view>
+
+<view class="msg-box" bindtap="handleOpen">
+   <view class="msg-time">2019-09-07  16:41:00</view>
+<view class="card">
+ <view class="msg-title">利息提醒</view>
+  <view class="msg-content">融科集团的客户【融科集团淮安子龙分公司】在本月扣划贷款利息时有6笔贷款共计60元利息未结清，为避免产生欠息，请及时通知客户存款。</view>
+</view>
+</view>
+
+<view class="bottom-msg">没有更多内容啦</view>
+
+
+<i-modal  title="利息提醒" visible="{{ visible}}" show-ok="false"  bind:click="handleClick" actions="{{ actions }}" >
+    <view class="detail-msg">融科集团的客户【融科集团淮安子龙分公司】在本月扣划贷款利息时有6笔贷款共计60元利息未结清，为避免产生欠息，请及时通知客户存款。</view>
+
+</i-modal>
+
+</view>
+
+

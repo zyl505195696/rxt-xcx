@@ -1,0 +1,12 @@
+{
+    "navigationBarTitleText": "注册",
+
+    "usingComponents": {
+      "i-input": "../../dist/input/index",
+      "i-button": "../dist/button/index",
+      "i-radio-group": "../../dist/radio-group/index",
+      "i-radio": "../../dist/radio/index" ,
+      "i-load-more": "../../dist/load-more/index"     
+    }
+    
+}

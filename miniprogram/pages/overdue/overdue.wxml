@@ -1,0 +1,33 @@
+<view class="page">
+  <view class="card">
+
+    <text class="title title-num"> 2367896541790854</text>
+
+    <view class="state already">已逾期<i-icon type="remind" class="state-icon already-icon" />
+    </view>
+    <view class="card-msg">
+      <text class="name">客户名称</text>
+      <text class="title overdue-title">  融科集团淮安子龙分公司融科集团淮安子龙分公司</text>
+      <text class="title-msg"> 普通</text>
+
+    </view>
+
+    <view class="card-msg">
+      <text class="name">贷款时间</text>
+      <text>2007-0809</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">贷款金额</text>
+      <text class="yellow"> ¥ 12345678</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">贷款余额</text>
+      <text class="yellow"> ¥ 888997</text>
+    </view>
+
+  </view>
+
+  <view class="bottom-msg">没有更多内容啦</view>
+
+</view>

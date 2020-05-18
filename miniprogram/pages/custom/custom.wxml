@@ -1,0 +1,178 @@
+<!--pages/custom/custom.wxml-->
+
+<view class="page">
+
+
+  <view class="card">
+    <text class="title-msg"> 普通</text>
+    <text class="title">  融科集团淮安子龙分公司融科集团淮安子龙分公司</text>
+    <view class="state ok">已授信<i-icon type="right" class="state-icon ok-icon" />
+    </view>
+
+    <view class="card-msg">
+      <text class="name">核心企业</text>
+      <text>融科集团</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">联系人</text>
+      <text>王劲文</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">联系方式</text>
+      <text>12345678</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">签约时间</text>
+      <text>2019-09-09</text>
+    </view>
+
+    <view class="money-box">
+      <view class="money-content">
+        <view class="sanjiao">
+        </view>
+        贷款余额 ¥ 0.00
+      </view>
+    </view>
+    <slider block-size="15" bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" />
+
+  </view>
+
+
+
+
+
+  <view class="card">
+    <text class="title-msg"> 普通</text>
+    <text class="title">  融科集团淮安子龙分公司融科集团淮安子龙分公司</text>
+    <view class="state ok">已授信<i-icon type="right" class="state-icon ok-icon" />
+    </view>
+
+    <view class="card-msg">
+      <text class="name">核心企业</text>
+      <text>融科集团</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">联系人</text>
+      <text>王劲文</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">联系方式</text>
+      <text>12345678</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">签约时间</text>
+      <text>2019-09-09</text>
+    </view>
+
+    <view class="money-box">
+      <view class="money-content">
+        <view class="sanjiao">
+        </view>
+        贷款余额 ¥ 0.00
+      </view>
+    </view>
+    <slider block-size="15" bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" />
+
+  </view>
+
+
+
+  <view class="card">
+    <text class="title-msg"> 普通</text>
+    <text class="title">  融科集团淮安子龙分公司融科集团淮安子龙分公司</text>
+    <view class="state ok">已授信<i-icon type="right" class="state-icon ok-icon" />
+    </view>
+
+    <view class="card-msg">
+      <text class="name">核心企业</text>
+      <text>融科集团</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">联系人</text>
+      <text>王劲文</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">联系方式</text>
+      <text>12345678</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">签约时间</text>
+      <text>2019-09-09</text>
+    </view>
+
+    <view class="money-box">
+      <view class="money-content">
+        <view class="sanjiao">
+        </view>
+        贷款余额 ¥ 0.00
+      </view>
+    </view>
+    <slider block-size="15" bindchange="slider1change" left-icon="cancel" right-icon="success_no_circle" />
+
+  </view>
+
+
+
+<!-- 右侧弹出部分 -->
+
+  <wux-popup position="right" visible="{{ visible2 }}" bind:close="onClose2" class="kk">
+
+    <i-input value="{{ value6 }}" type="textarea" left placeholder="请输入核心用户名/核心企业名" i-class="search" />
+
+    <view class="search-content">
+      <text class="search-title">客户</text>
+      <button class="search-btn">普通</button>
+      <button class="search-btn">上游</button>
+      <button class="search-btn">下游</button>
+    </view>
+
+    <view class="search-content">
+      <text class="search-title">申请日期</text>
+
+
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="pick-time">
+          选择日期 {{date}}
+        </view>
+        <view class="time-line">-</view>
+      </picker>
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <view class="pick-time">
+          选择日期 {{date}}
+        </view>
+      </picker>
+      <text class="search-title">审批状态</text>
+      <button class="search-btn">待审批</button>
+      <button class="search-btn">已驳回</button>
+      <button class="search-btn">已通过</button>
+    </view>
+
+
+    <view class="search-content">
+
+      <text class="search-title">放款状态</text>
+      <button class="search-btn">未放款</button>
+      <button class="search-btn">已放款</button>
+
+    </view>
+
+    <button class="reset-btn">重置</button>
+      <button class="confirm-btn">确定</button>
+  </wux-popup>
+
+
+
+
+
+
+
+  <button block type="light" bindtap="open2">搜索</button>
+  <view class="bottom-msg">没有更多内容啦</view>
+
+</view>

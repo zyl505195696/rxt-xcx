@@ -1,0 +1,15 @@
+<!--pages/set/set.wxml-->
+<navigator url="/pages/suggest/suggest">
+  <view class="msg-content">
+    <text class="msg-name">修改密码</text>
+      <i-icon type="enter" color="#ccc" size="24" class="per-icon " />
+      <text class="msg-num">点击修改</text>
+  
+  </view>
+</navigator>
+<navigator >
+  <view class="msg-content">
+    <text class="msg-name">退出</text>
+    <i-icon type="enter" color="#ccc" size="24" class="per-icon " />
+  </view>
+</navigator>

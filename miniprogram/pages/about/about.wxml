@@ -1,0 +1,25 @@
+<!--pages/about/about.wxml-->
+<view class="logo-box">
+
+  <image src="/images/rxt_logo.png" class="logo"></image>
+  <view class="text">手机融信通v.1.0</view>
+</view>
+
+
+<view class="msg-content">
+  <text class="msg-name">检测更新</text>
+  <text class="msg-num">当前版本为v.1.7 点击更新</text>
+</view>
+
+<navigator url="/pages/suggest/suggest">
+  <view class="msg-content">
+    <text class="msg-name">意见反馈</text>
+    <i-icon type="enter" color="#ccc" size="24" class="per-icon " />
+  </view>
+</navigator>
+<navigator url="/pages/weChat/weChat">
+  <view class="msg-content">
+    <text class="msg-name">微信关注</text>
+    <i-icon type="enter" color="#ccc" size="24" class="per-icon " />
+  </view>
+</navigator>

@@ -1,0 +1,60 @@
+<!--pages/interest/interest.wxml-->
+<view class="page">
+  <view class="card">
+    <text class="title-msg"> 交易</text>
+    <text class="title interest-title">  融科集团淮安子龙分公司融科集团淮安子龙分公司</text>
+
+    <view class="card-msg">
+      <text class="name ">利息总额</text>
+      <text class="yellow">¥260.00</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">核心企业</text>
+      <text>yh</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">联系人</text>
+      <text>张三</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">联系方式</text>
+      <text>12345678</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">账户余额</text>
+      <text class="yellow">¥990.00</text>
+    </view>
+
+  </view>
+
+
+
+  <view class="card">
+    <text class="title-msg"> 上游</text>
+    <text class="title interest-title">  融科集团淮安子龙分公司融科集团淮安子龙分公司</text>
+
+    <view class="card-msg">
+      <text class="name ">利息总额</text>
+      <text class="yellow">¥260.00</text>
+    </view>
+
+    <view class="card-msg">
+      <text class="name">核心企业</text>
+      <text>yh</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">联系人</text>
+      <text>张三</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">联系方式</text>
+      <text>12345678</text>
+    </view>
+    <view class="card-msg">
+      <text class="name">账户余额</text>
+      <text class="yellow">¥990.00</text>
+    </view>
+  </view>
+  <view class="bottom-msg">没有更多内容啦</view>
+</view>

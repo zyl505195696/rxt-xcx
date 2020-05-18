@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "逾期贷款查询",
+  "usingComponents": {
+ 
+      "i-icon": "../../dist/icon/index"
+  }
+}

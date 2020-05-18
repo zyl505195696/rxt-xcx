@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "预警贷款查询",
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index"
+  }
+}

@@ -1,0 +1,40 @@
+/* pages/about/about.wxss */
+.logo-box{
+padding: 70rpx 0;
+background-color: #fff;
+text-align: center;
+margin-bottom: 30rpx;
+}
+.logo{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 20rpx;
+}
+.text{
+  margin-top: 30rpx;
+  font-size: 38rpx;
+}
+
+.msg-content{
+
+  padding: 20rpx 0;
+  background-color: #fff;
+  padding-left: 40rpx;
+  font-size: 32rpx;
+    border-bottom: 1px solid #efefef;
+}
+.msg-name{
+  color: #000;
+}
+.msg-num{
+ float: right;
+ margin-right: 30rpx;
+ color: #999;
+}
+
+
+.per-icon {
+  color: #fff;
+  float: right;
+  margin-right: 20rpx;
+}

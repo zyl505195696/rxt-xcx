@@ -1,0 +1,46 @@
+<!--pages/mine/mine.wxml-->
+<view class="personal-msg">
+
+
+  <view class="per-img">
+
+    <image src="https://i.loli.net/2017/08/21/599a521472424.jpg"></image>
+  </view>
+
+  <view class="per-title">上海分行浦东大道支行客户经理</view>
+  <view class="per-state">客户经理</view>
+  <navigator url="../manageMsg/manageMsg" class="nav">
+    <i-icon type="enter" class="top-icon" color="#fff" size="24" />
+  </navigator>
+
+</view>
+
+
+<view class="per-content">我的客户
+  <navigator url="../custom/custom" class="per-icon ">
+    <i-icon type="enter" color="#ccc" size="24" />
+  </navigator>
+
+</view>
+
+<view class="per-content line">客服电话
+
+  <i-icon type="enter" class="per-icon " color="#ccc" size="24" />
+  <text class="per-num">4000-616-880</text>
+</view>
+<view class="per-content">QQ客服
+
+  <i-icon type="enter" class="per-icon " color="#ccc" size="24" />
+  <text class="per-num">56678956</text>
+</view>
+
+<navigator url="../about/about">
+  <view class="per-content about">关于
+    <i-icon type="enter" color="#ccc" size="24" class="per-icon " />
+  </view>
+</navigator>
+<navigator url="../set/set">
+  <view class="per-content">系统设置
+    <i-icon type="enter" color="#ccc" size="24" class="per-icon" />
+  </view>
+</navigator>

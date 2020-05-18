@@ -1,0 +1,5 @@
+/* pages/interest/interest.wxss */
+.interest-title{
+  max-width: 80%;
+  font-size: 34rpx;
+}

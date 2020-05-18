@@ -1,0 +1,35 @@
+/* pages/message/message.wxss */
+.mas-box{
+  margin-bottom: 20rpx;
+}
+.msg-time{
+  width: 38%;
+  padding: 0 10rpx;
+  margin: 30rpx auto;
+  background-color: #cecfce;
+  text-align: center;
+  font-size: 28rpx;
+
+  border-radius: 30rpx;
+  color: #fff;
+  
+}
+.msg-title{
+  font-size: 38rpx;
+  margin-bottom: 10rpx;
+}
+.msg-content{
+  font-size: 36rpx;
+  width:100%;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+ word-break:break-all; 
+}
+.detail-msg{
+  text-align: left;
+  padding: 30rpx;
+  font-size: 34rpx;
+  
+}

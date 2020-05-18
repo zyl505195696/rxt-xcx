@@ -1,0 +1,70 @@
+/* pages/mine/mine.wxss */
+
+.personal-msg {
+  height: 210rpx;
+  background-color: #0083dd;
+
+}
+
+.per-img {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 60rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 30rpx;
+}
+
+.per-img image {
+  border-radius: 60rpx;
+  width: 100%;
+  height: 100%;
+}
+
+.per-title {
+  margin-left: 180rpx;
+  margin-top: 45rpx;
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.per-state {
+  display: inline-block;
+  padding: 0 20rpx;
+  text-align: center;
+  margin-left: 180rpx;
+  margin-top: 20rpx;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 25rpx;
+  font-size: 30rpx;
+}
+
+.per-icon {
+  color: #fff;
+  float: right;
+  margin-right: 20rpx;
+}
+.top-icon{
+  position: absolute;
+  right: 20rpx;
+  top:100rpx;
+}
+
+.per-content{
+  padding: 20rpx 0;
+  background-color: #fff;
+  padding-left: 40rpx;
+  font-size: 32rpx;
+}
+.line{
+  margin-top: 30rpx;
+  border-bottom: 1px solid #efefef;
+}
+.about{
+  margin: 30rpx 0;
+}
+.per-num{
+  float: right;
+  margin-right: 30rpx;
+}

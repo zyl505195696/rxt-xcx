@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "技术头条",
-  "usingComponents": {
-    "i-button": "../dist/button/index"
-  }
-}

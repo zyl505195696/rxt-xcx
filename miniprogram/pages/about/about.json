@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "关于",
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index"
+  }
+}

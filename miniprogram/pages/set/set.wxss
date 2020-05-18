@@ -1,0 +1,22 @@
+/* pages/set/set.wxss */
+.msg-content{
+
+  padding: 20rpx 0;
+  background-color: #fff;
+  padding-left: 40rpx;
+  font-size: 32rpx;
+    border-bottom: 1px solid #efefef;
+}
+.msg-name{
+  color: #000;
+}
+.per-icon {
+  color: #fff;
+  float: right;
+  margin-right: 20rpx;
+}
+.msg-num{
+  float: right;
+  margin-right: 30rpx;
+  color: #999;
+}

@@ -1,0 +1,18 @@
+/* pages/suggest/suggest.wxss */
+
+.text{
+  border: 1px solid #0083db;
+  border-radius: 40rpx;
+  height: 300rpx;
+  background-color: #fff;
+  padding: 20rpx;
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30rpx;
+}
+.btn{
+  background-color: #0083db;
+  color: #fff;
+  margin-top: 50rpx;
+}

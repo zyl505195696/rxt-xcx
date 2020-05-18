@@ -1,0 +1,10 @@
+<!--pages/service/service.wxml-->
+<view>贷款查询</view>
+<view>还款查询</view>
+<view>融资申请查询</view>
+<view>订单查询</view>
+<view>服务费账单</view>
+<view>风险池账单</view>
+<view>凭证查询</view>
+<view>应收款查询</view>
+<view>利息提醒</view>

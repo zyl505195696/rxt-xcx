@@ -1,0 +1,20 @@
+<!--pages/manageMsg/manageMsg.wxml-->
+<view class="msg-content">
+  <text class="msg-name">系统账号</text>
+  <text class="msg-num">4000-616-880</text>
+</view>
+
+<view class="msg-content">
+  <text class="msg-name">客户经理姓名</text>
+  <text class="msg-num">上海分行浦东大道支行</text>
+</view>
+
+<view class="msg-content">
+  <text class="msg-name">联系手机</text>
+  <text class="msg-num">11556786</text>
+</view>
+
+<view class="msg-content">
+  <text class="msg-name">所属支行</text>
+  <text class="msg-num">上浦东大道支行</text>
+</view>

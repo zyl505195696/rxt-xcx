@@ -1,0 +1,18 @@
+/* pages/overdue/overdue.wxss */
+.title-num{
+  max-width: 75%;
+  margin-left: 0;
+}
+.overdue-title{
+  font-weight: normal;
+  font-size:28rpx;
+  max-width:58%; 
+}
+
+
+.already{
+background-color: #ff1c38;
+}
+.already-icon{
+ background-color: #aa0000;
+}

@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "我的客户",
+
+    "enablePullDownRefresh": true,
+  
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index",
+    "i-button": "../../dist/button/index",
+    "i-drawer": "../../dist/drawer/index",
+    "i-input": "../../dist/input/index",
+    "i-radio-group": "../../dist/radio-group/index",
+    "i-radio": "../../dist/radio/index",
+
+  
+  
+    "wux-popup": "../../wux/popup/index"
+  }
+}

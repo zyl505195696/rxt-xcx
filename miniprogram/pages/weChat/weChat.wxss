@@ -1,0 +1,17 @@
+/* pages/weChat/wechat.wxss */
+.img{
+  width: 100%;
+  height: 380rpx;
+}
+.w-title{
+  font-size: 36rpx;
+  margin: 40rpx 30rpx 20rpx 30rpx;
+}
+.w-text{
+  font-size: 32rpx;
+  margin: 0 30rpx;
+  color: #888;
+}
+.w-bottom{
+  margin-top: 80rpx;
+}

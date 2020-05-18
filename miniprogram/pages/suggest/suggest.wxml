@@ -1,0 +1,7 @@
+<!--pages/suggest/suggest.wxml-->
+
+
+<textarea class="text" placeholder="请写下您遇见的问题或建议"></textarea>
+<button bind:click="handleClick" class="btn">提交</button>
+
+
